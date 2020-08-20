@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        edit = (EditText)findViewById(R.id.editText);
+        edit = (EditText)findViewById(R.id.editTextMultiLine);
         txtShow = (TextView)findViewById(R.id.textView);
 
     }
